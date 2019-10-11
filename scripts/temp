@@ -1,0 +1,174 @@
+{"_id":{"$oid":"5b9c0f8a6286bd49f3aa580a"},"type":"CST","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa580b"},"type":"Advocate-Business Tax","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa580c"},"type":"Advocate - Levy","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa580d"},"type":"Advocate - Lien","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa580e"},"type":"Damaged or Dead Tree","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa580f"},"type":"DOF Property - Reduction Issue","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5810"},"type":"Squeegee","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5811"},"type":"VACANT APARTMENT","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5812"},"type":"Stalled Sites","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5813"},"type":"Trans Fat","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5814"},"type":"Advocate-Commercial Exemptions","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5815"},"type":"Building Condition","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5816"},"type":"AGENCY","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5817"},"type":"SRDE","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5818"},"type":"Interior Demo","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5819"},"type":"Radioactive Material","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa581a"},"type":"X-Ray Machine/Equipment","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa581b"},"type":"Taxpayer Advocate Inquiry","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa581c"},"type":"Tanning","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa581d"},"type":"Legal Services Provider Complaint","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa581e"},"type":"Bottled Water","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa581f"},"type":"Calorie Labeling","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5820"},"type":"Transportation Provider Complaint","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5821"},"type":"Overflowing Recycling Baskets","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5822"},"type":"Window Guard","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5823"},"type":"Lifeguard","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5824"},"type":"Cooling Tower","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5825"},"type":"Miscellaneous Categories","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5826"},"type":"FCST","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5827"},"type":"Public Toilet","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5828"},"type":"Animal Facility - No Permit","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5829"},"type":"Illegal Animal Sold","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa582a"},"type":"FATF","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa582b"},"type":"ATF","level":"Very Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa582c"},"type":"Unsanitary Animal Facility","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa582d"},"type":"Municipal Parking Facility","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa582e"},"type":"City Vehicle Placard Complaint","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa582f"},"type":"Special Natural Area District (SNAD)","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5830"},"type":"Tattooing","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5831"},"type":"Bike Rack Condition","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5832"},"type":"Drinking Water","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5833"},"type":"Pet Shop","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5834"},"type":"Plant","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5835"},"type":"Adopt-A-Basket","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5836"},"type":"Posting Advertisement","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5837"},"type":"Emergency Response Team (ERT)","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5838"},"type":"Poison Ivy","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5839"},"type":"Disorderly Youth","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa583a"},"type":"Beach/Pool/Sauna Complaint","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa583b"},"type":"Harboring Bees/Wasps","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa583c"},"type":"Collection Truck Noise","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa583d"},"type":"Bus Stop Shelter Placement","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa583e"},"type":"LinkNYC","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa583f"},"type":"Bridge Condition","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5840"},"type":"Illegal Fireworks","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5841"},"type":"Scaffold Safety","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5842"},"type":"Illegal Animal Kept as Pet","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5843"},"type":"Sweeping/Inadequate","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5844"},"type":"Investigations and Discipline (IAD)","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5845"},"type":"Found Property","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5846"},"type":"Senior Center Complaint","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5847"},"type":"Cranes and Derricks","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5848"},"type":"Public Payphone Complaint","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5849"},"type":"Mold","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa584a"},"type":"Bike/Roller/Skate Chronic","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa584b"},"type":"Animal in a Park","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa584c"},"type":"Violation of Park Rules","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa584d"},"type":"For Hire Vehicle Report","level":"Low"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa584e"},"type":"DPR Internal","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa584f"},"type":"BEST/Site Safety","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5850"},"type":"Day Care","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5851"},"type":"Urinating in Public","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5852"},"type":"Unsanitary Pigeon Condition","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5853"},"type":"Mosquitoes","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5854"},"type":"Panhandling","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5855"},"type":"Unleashed Dog","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5856"},"type":"Recycling Enforcement","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5857"},"type":"Sweeping/Missed","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5858"},"type":"Noise - House of Worship","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5859"},"type":"Overflowing Litter Baskets","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa585a"},"type":"Noise - Helicopter","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa585b"},"type":"Non-Residential Heat","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa585c"},"type":"Bus Stop Shelter Complaint","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa585d"},"type":"Indoor Sewage","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa585e"},"type":"Request Xmas Tree Collection","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa585f"},"type":"OUTSIDE BUILDING","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5860"},"type":"ELEVATOR","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5861"},"type":"DRIE","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5862"},"type":"Industrial Waste","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5863"},"type":"Drinking","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5864"},"type":"Water Quality","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5865"},"type":"Boilers","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5866"},"type":"Asbestos","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5867"},"type":"Broken Parking Meter","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5868"},"type":"Derelict Bicycle","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5869"},"type":"School Maintenance","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa586a"},"type":"Taxi Report","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa586b"},"type":"Drug Activity","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa586c"},"type":"Vacant Lot","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa586d"},"type":"Unsanitary Animal Pvt Property","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa586e"},"type":"Highway Condition","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa586f"},"type":"Smoking","level":"Moderate"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5870"},"type":"Street Sign - Dangling","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5871"},"type":"Standing Water","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5872"},"type":"Litter Basket / Request","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5873"},"type":"Hazardous Materials","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5874"},"type":"Water Conservation","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5875"},"type":"Illegal Tree Damage","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5876"},"type":"Food Poisoning","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5877"},"type":"Special Projects Inspection Team (SPIT)","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5878"},"type":"Maintenance or Facility","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5879"},"type":"Electrical","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa587a"},"type":"Indoor Air Quality","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa587b"},"type":"Noise - Park","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa587c"},"type":"Homeless Encampment","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa587d"},"type":"Vending","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa587e"},"type":"Traffic","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa587f"},"type":"Street Sign - Missing","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5880"},"type":"Curb Condition","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5881"},"type":"Plumbing","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5882"},"type":"Air Quality","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5883"},"type":"Other Enforcement","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5884"},"type":"Lead","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5885"},"type":"Street Sign - Damaged","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5886"},"type":"For Hire Vehicle Complaint","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5887"},"type":"SAFETY","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5888"},"type":"Root/Sewer/Sidewalk Condition","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5889"},"type":"Animal Abuse","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa588a"},"type":"Broken Muni Meter","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa588b"},"type":"Non-Emergency Police Matter","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa588c"},"type":"Food Establishment","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa588d"},"type":"Dead/Dying Tree","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa588e"},"type":"Snow","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa588f"},"type":"APPLIANCE","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5890"},"type":"Elevator","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5891"},"type":"Electronics Waste","level":"High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5892"},"type":"Taxi Complaint","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5893"},"type":"Overgrown Tree/Branches","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5894"},"type":"Consumer Complaint","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5895"},"type":"New Tree Request","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5896"},"type":"Graffiti","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5897"},"type":"Traffic Signal Condition","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5898"},"type":"Homeless Person Assistance","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa5899"},"type":"FLOORING/STAIRS","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa589a"},"type":"Damaged Tree","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa589b"},"type":"GENERAL","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa589c"},"type":"ELECTRIC","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa589d"},"type":"Building/Use","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa589e"},"type":"General Construction/Plumbing","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa589f"},"type":"Sidewalk Condition","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a0"},"type":"Noise - Vehicle","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a1"},"type":"Sewer","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a2"},"type":"WATER LEAK","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a3"},"type":"Derelict Vehicles","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a4"},"type":"Derelict Vehicle","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a5"},"type":"Rodent","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a6"},"type":"DOOR/WINDOW","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a7"},"type":"Dirty Conditions","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a8"},"type":"Missed Collection (All Materials)","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58a9"},"type":"Sanitation Condition","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58aa"},"type":"Request Large Bulky Item Collection","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58ab"},"type":"Noise - Commercial","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58ac"},"type":"Street Light Condition","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58ad"},"type":"PLUMBING","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58ae"},"type":"PAINT/PLASTER","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58af"},"type":"Noise","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58b0"},"type":"Water System","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58b1"},"type":"Noise - Street/Sidewalk","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58b2"},"type":"UNSANITARY CONDITION","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58b3"},"type":"Street Condition","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58b4"},"type":"Blocked Driveway","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58b5"},"type":"Illegal Parking","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58b6"},"type":"HEAT/HOT WATER","level":"Very High"}
+{"_id":{"$oid":"5b9c0f8b6286bd49f3aa58b7"},"type":"Noise - Residential","level":"Very High"}

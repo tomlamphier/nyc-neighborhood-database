@@ -1,0 +1,8 @@
+# manual procedure for downloading 12gb file of nyc 311 complaints from 2010 to present
+
+1.  Go to https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
+
+2.  Export -> CSV   # this will take 30 minutes to 1 hour (typically) to complete
+
+3.  Move file to vue311-database/data folder as call311.data.
+

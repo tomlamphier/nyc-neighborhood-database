@@ -26,7 +26,8 @@ Scripts (in scripts directory):
 6. neighborhoods.py  - read neighborhood file, augment it with bounding box and area, write to new collection.
 7. call311upd.py     - do a geojoin with neighborhoods and 311 calls and assign a neighborhood to each request.
 8. sumcall311.py     - compute complaint counts by neighborhood and store in a new collection. 
-9. cleanup.py        - remove requests collection (not needed once summary collections are created).
+9. boroughs.py       - load borough boundaries to database 
+10. cleanup.py        - remove requests collection (not needed once summary collections are created).
 
 Final call311 Database
 

@@ -31,10 +31,10 @@ Scripts (in scripts directory):
 
 Final call311 Database
 
-  collection    description
-  ----------    ---------------------------------------------
-  complaints    complaint types
-  boroughs      NYC borough boundaries
-  neighborhoods NYC neighborhood boundaries 
-  nhoodcounts   Counts by complaint type and neighborhood
+  |collection   | description                                  |
+  |------------ |--------------------------------------------- |
+  |complaints   | complaint types                              |
+  |boroughs     | NYC borough boundaries                       |
+  |neighborhoods| NYC neighborhood boundaries                  |
+  |nhoodcounts  | Counts by complaint type and neighborhood    |
 

@@ -1,5 +1,12 @@
-# vue311-database
+# nyc-neighborhood-database
 Database scripts for NYC Neighborhood project
+
+## About NYC Neighborhood
+
+NYC Neighborhood is a web application that uses the data from 311 calls to explore how 
+different complaints (e.g. noise) are distributed across the city by neighborhood.  
+
+The URL for the app is 
 
 ## Software Requirements
  

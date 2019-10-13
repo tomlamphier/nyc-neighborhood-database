@@ -1,13 +1,13 @@
 # vue311-database
 Database scripts for NYC Neighborhood project
 
-Software Requirements
+## Software Requirements
  
 1. python 3.6+
-2. pymongo module for python mongodb client
+2. python modules (see list at bottom)
 3. mongodb
 
-The inputs to this project are:
+## The inputs to this project are:
 
 1. Raw file of NYC 311 calls from 2010 to present.
 2. Geojson file of NYC borough boundaries.
@@ -16,7 +16,7 @@ The inputs to this project are:
 The above inputs are processed mainly by short python scripts, and the data
 gets loaded to a mongodb database. 
 
-Scripts (in scripts directory):
+## Scripts (in scripts directory):
 
 1. runmefirst.py     - verifies that all required python modules are installlled
 2. dropdb.py         - drop any previously created call311 database
@@ -29,7 +29,7 @@ Scripts (in scripts directory):
 9. boroughs.py       - load borough boundaries to database 
 10. cleanup.py        - remove requests collection (not needed once summary collections are created).
 
-Final call311 Database
+## Final call311 Database
 
   |collection   | description                                  |
   |------------ |--------------------------------------------- |
@@ -38,3 +38,14 @@ Final call311 Database
   |neighborhoods| NYC neighborhood boundaries                  |
   |nhoodcounts  | Counts by complaint type and neighborhood    |
 
+## Python Modules 
+* sys
+* os
+* pymongo 
+* json
+* area
+* numpy
+* UliEngineering.Math.Coordinates
+* math
+* csv
+* Decimal

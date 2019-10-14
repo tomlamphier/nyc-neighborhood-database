@@ -4,9 +4,14 @@ Database scripts for NYC Neighborhood project
 ## About NYC Neighborhood
 
 NYC Neighborhood is a web application that uses the data from 311 calls to explore how 
-different complaints (e.g. noise) are distributed across the city by neighborhood.  
+different complaints (e.g. noise) are distributed across the city by neighborhood.  There
+are three parts to the project:
 
-The URL for the app is 
+1. A Mongo db (this github repo)
+2. Vue front end (github repo nyc-neighborhood-client)
+3. Spring Boot server (github repo nyc-neighborhood-server)
+
+The URL for the live app is 
 
 ## Software Requirements
  

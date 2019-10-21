@@ -17,7 +17,7 @@ if (len(sys.argv) != 2):
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client[sys.argv[1]]
-colNhoods = db["neighborhoods"]
+colNhoods = db["nhoodgeo"]
 colRequests = db['requests']
 cur = colNhoods.find()
 updCount = 0
@@ -25,6 +25,7 @@ for rec in cur:
     #print(rec['geodata']['properties']['neighborhood'])
     geo = rec['geodata']['geometry']
     nh  = rec['neighborhood']
+    print(nh)
 
     filter = {"location": {"$geoWithin": {"$geometry": geo}}}
     upd    = {"$set": {"neighborhood": nh}}

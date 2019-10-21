@@ -13,19 +13,16 @@ import sys
 import csv
 from decimal import Decimal
 from math import floor
-#import pymongo
+import pymongo
 import os
 
-#client = pymongo.MongoClient("mongodb://localhost:27017/")
-#db = client[sys.argv[1]]
-#col = db["requests"]
 #col.drop()
 
 if (len(sys.argv) != 2):
     print("usage: python3 select311.py  <your-database-name>")
     exit()
 
-with open('../data/call311-small.csv', newline='') as csvfile:
+with open('../data/call311.csv', newline='') as csvfile:
     with open('../data/call311temp.json', 'w') as tempjson:
         rdr = csv.reader(csvfile)
         ctr = 0
@@ -36,7 +33,7 @@ with open('../data/call311-small.csv', newline='') as csvfile:
             if ctr == 1:
                 continue
             if ctr % 20000 == 0:
-                print("{} rows processed so far".format(ctr)) 
+                print("{} rows processed so far".format(ctr))
             year = row[1][6:10]
             #print(year)
             if not (year >= "2017"):
@@ -67,6 +64,15 @@ with open('../data/call311-small.csv', newline='') as csvfile:
         cmd = 'mongoimport --db=' + sys.argv[1] + ' --collection=requests ' \
             ' --type=json --file=../data/call311temp.json --drop'
         os.system(cmd)
+
+
+        client = pymongo.MongoClient("mongodb://localhost:27017/")
+        db = client[sys.argv[1]]
+        col = db["requests"]
+        #db.col.create_index( { "location": pymongo.GEO2D } )
+        #db.col.create_index([("location", pymongo.GEOSPHERE)])
+        col.create_index([("location", pymongo.GEOSPHERE)])
+        client.close()
 
         print("run totals:")
         print("   records read:                 ", ctr)

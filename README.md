@@ -35,7 +35,7 @@ gets loaded to a mongodb database.
 3. download          - manual procedure to download 311 call data from NYC site
 4. select311.py      - select data for 2017 - present, filter out calls that are missing lat/lng, load to mongo db
 5. complaints.py     - summarize 311 calls by complaint type, put output in a new collection.
-6. neighborhoods.py  - read neighborhood file, augment it with bounding box and area, write to new collection.
+6. neighborhoods.py  - read neighborhood file, augment it with bounding box and area, write to neighborhood collections.
 7. call311upd.py     - do a geojoin with neighborhoods and 311 calls and assign a neighborhood to each request.
 8. sumcall311.py     - compute complaint counts by neighborhood and store in a new collection. 
 9. boroughs.py       - load borough boundaries to database 
@@ -47,7 +47,9 @@ gets loaded to a mongodb database.
   |------------ |--------------------------------------------- |
   |complaints   | complaint types                              |
   |boroughs     | NYC borough boundaries                       |
-  |neighborhoods| NYC neighborhood boundaries                  |
+  |neighborhoods| NYC neighborhoods                            |
+  |nhoodbounds  | bounding box for each neighborhood           |
+  |nhoodgeo     | geo boundaries for each neighborhood         |
   |nhoodcounts  | Counts by complaint type and neighborhood    |
 
 ## Python Modules 

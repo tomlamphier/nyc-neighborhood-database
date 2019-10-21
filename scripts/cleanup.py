@@ -7,6 +7,7 @@
 #
 import sys
 import pymongo
+import os
 
 if (len(sys.argv) != 2):
     print("usage: python3 call311upd.py  <your-database-name>")
@@ -16,4 +17,5 @@ client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client[sys.argv[1]]
 col = db["requests"]
 col.drop()
+os.remove("../data/call311temp.json")
 print("done")

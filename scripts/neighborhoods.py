@@ -20,11 +20,17 @@ if (len(sys.argv) != 2):
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client[sys.argv[1]]
-col = db["neighborhoods"]
-col.drop()
+colNeighborhoods = db["neighborhoods"]
+colNeighborhoods.drop()
+colNhoodbounds = db["nhoodbounds"]
+colNhoodbounds.drop()
+colNhoodgeo    = db["nhoodgeo"]
+colNhoodgeo.drop() 
 
 def trm(num):
     return math.floor(num * 1000000) / 1000000
+
+nhoods = {}
 
 with open('../data/nhoodraw.json') as json_in:
     data = json.load(json_in)
@@ -41,7 +47,49 @@ with open('../data/nhoodraw.json') as json_in:
         n['properties']['minlat'] = trm(bb.miny)
         n['properties']['maxlat'] = trm(bb.maxy)
         #have area at this point in properties
-        rec = {"neighborhood": nh, "geodata": n}
-        col.insert_one(rec)
+        #rec = {"neighborhood": nh, "geodata": n}
+        rec = {"neighborhood": nh, "borough": n['properties']['borough'],
+           "minlng": trm(bb.minx), "maxlng": trm(bb.maxx),
+           "minlat": trm(bb.miny), "maxlat": trm(bb.maxy),
+           "area": ar}
 
+        if nh in nhoods:
+            rec2 = nhoods[nh]
+            if (rec2['minlng'] < rec['minlng']):
+                rec['minlng'] = rec2['minlng']
+            if (rec2['maxlng'] > rec['maxlng']):
+                rec['maxlng'] = rec2['maxlng']
+            if (rec2['minlat'] < rec['minlat']):
+                rec['minlat'] = rec2['minlat']
+            if (rec2['maxlat'] > rec['maxlat']):
+                rec['maxlat'] = rec2['maxlat']
+            rec['area'] += rec2['area']
+        nhoods[nh] = rec
+
+        recNhoodgeo = {"neighborhood": nh, 
+            "geodata": {"type": "Feature", 
+               "properties": {
+               "neighborhood": nh, "borough": n['properties']['borough'],
+               "area": ar, "minlng": rec['minlng'],
+               "maxlng": rec['maxlng'],
+               "minlat": rec['minlat'],
+               "maxlat": rec['maxlat']},
+            "geometry": {
+               "type": "Polygon",
+               "coordinates": cor}}}
+        colNhoodgeo.insert_one(recNhoodgeo)
+                       
+        #rec1 = {"neighborhood": nh, "borough": n['properties']['borough']}
+        #col1.insert_one(rec1)
+
+    for elem in nhoods:
+        val = nhoods[elem]
+        recNeighborhood = {"neighborhood": elem, "borough": val['borough']}
+        colNeighborhoods.insert_one(recNeighborhood)
+
+        recNhoodbounds = {"neighborhood": elem, "minlng": val['minlng'],
+          "maxlng": val['maxlng'], "minlat": val['minlat'],
+          "maxlat": val['maxlat'], "area": val['area']}
+        colNhoodbounds.insert_one(recNhoodbounds)
+client.close()
 print("done")

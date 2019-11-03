@@ -11,7 +11,7 @@ are three parts to the project:
 2. Vue front end (github repo nyc-neighborhood-client)
 3. Spring Boot server (github repo nyc-neighborhood-server)
 
-The URL for the live app is 
+The URL for the live app is [datasciex.com/nyc-neighborhood](datasciex.com/nyc-neighborhood).
 
 ## Software Requirements
  
